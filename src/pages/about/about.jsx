@@ -1,0 +1,7 @@
+
+function About(){
+    return
+    (
+      <Header />  
+    )
+}

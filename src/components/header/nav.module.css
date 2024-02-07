@@ -1,0 +1,25 @@
+.navBar{
+    width: 100%;
+    margin: auto;
+    padding: 24px 60px;
+    color: #C7C7C7;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 650px){
+    .navBar{
+        padding: 16px;
+    }
+}
