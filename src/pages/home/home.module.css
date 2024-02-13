@@ -1,3 +1,5 @@
+/* NAV BAR */
+
 .myName{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -32,6 +34,10 @@
     display: none;
     cursor: pointer;
 }
+
+/* HERO SECTION */
+
+
 
 /* RESPONSIVE DESIGN */
 

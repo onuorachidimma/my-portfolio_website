@@ -11,7 +11,7 @@ function Home(){
                 <p className={styles.myName}>chidimma onuora</p>
                 <div className={styles.list}>
                     <ul>
-                        <a href=""><li>Work</li></a>
+                        <a href=""><li>Projects</li></a>
                         <a href=""><li>About</li></a>
                         <a href=""><li>Contact</li></a>
                     </ul>
@@ -22,7 +22,7 @@ function Home(){
                 </div>
             </Nav>
             
-            <Hero intro1="Hi, I am" introName="Chidimma Onuora" myProfession="A Sydney based front-end developer passionate about building accessible and user friendly websites." />
+            <Hero className={styles.heroContainer} intro1="Hi, I am" introName="Chidimma Onuora" myProfession="A passionate front-end developer. I am enthusiastic about creating software solutions, as well as developing accessible, user-friendly, and responsive websites." />
             
         </>
 
