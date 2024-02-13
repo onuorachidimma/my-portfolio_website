@@ -1,0 +1,21 @@
+.resumeButton{
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: #D3E97A;
+    padding: 5px 6px 5px 15px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.downloadIcon{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

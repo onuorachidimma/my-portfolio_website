@@ -1,0 +1,9 @@
+.heroContainer{
+    color: white;
+}
+
+.downloadLinkedInGithubIcons{
+    display: flex;
+    gap: 16px;
+}
+
