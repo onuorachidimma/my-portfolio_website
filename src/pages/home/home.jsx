@@ -1,6 +1,7 @@
 import Nav from "../../components/header/nav"
 import styles from "../home/home.module.css"
 import Hero from "../../components/header/hero"
+import Footer from "../../components/footer/footer"
 
 
 
@@ -21,9 +22,18 @@ function Home(){
                     <svg width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 16h32M6 28h32" stroke="#C7C7C7" stroke-width="2"/></svg>
                 </div>
             </Nav>
+            <header className={styles.header}>
+                
+                
+                <Hero className={styles.heroContainer} intro1="Hi, I am" introName="Chidimma Onuora" myProfession="A passionate front-end developer. I am enthusiastic about creating software solutions, as well as developing accessible, user-friendly, and responsive websites." />
             
-            <Hero className={styles.heroContainer} intro1="Hi, I am" introName="Chidimma Onuora" myProfession="A passionate front-end developer. I am enthusiastic about creating software solutions, as well as developing accessible, user-friendly, and responsive websites." />
-            
+            </header>
+
+            <footer className={styles.footer}>
+                
+                <Footer />
+                
+            </footer>
         </>
 
         

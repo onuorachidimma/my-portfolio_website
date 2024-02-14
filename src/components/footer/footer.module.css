@@ -1,0 +1,18 @@
+.myEmailResume{
+    border-bottom: 1px solid #D3E97A;
+    color: #FFFFFF;
+}
+
+.hello{
+    color: #C7C7C7;
+}
+
+.contactMe{
+    line-height: 2rem;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+}
+
+.contactDetails{
+    margin-bottom: 40px;
+}

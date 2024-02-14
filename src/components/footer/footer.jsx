@@ -1,0 +1,24 @@
+import styles from "./footer.module.css"
+import SectionHeadings from "../button/sectionHeadings"
+import SocialMediaIcons from "../button/socialMediaIcons"
+
+function Footer(){
+    return(
+        <>
+            <section className="">
+                <SectionHeadings heading="Let's connect"/>
+                <div className={styles.contactMe}>
+                    <div className={styles.contactDetails}>
+                        <p className={styles.hello}>Say hello at <a className={styles.myEmailResume} href="mailto:onuorachidimma4@gmail.com?subject=Subject%20Here&body=Message%20Here">onuorachidimma4@gmail.com</a></p>
+                        <p className={styles.hello}>For more info, here’s my <a className={styles.myEmailResume} href="#">resume</a></p>
+                    </div>
+
+                    <SocialMediaIcons />
+                </div>
+            </section>
+            
+        </>
+    )
+}
+
+export default Footer

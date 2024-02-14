@@ -2,7 +2,9 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 26px 100px;
+    /* padding: 26px 100px 40px 100px; */
+    border-bottom: 1px solid #484848;
+    margin-bottom: 3rem;
 
 }
 
