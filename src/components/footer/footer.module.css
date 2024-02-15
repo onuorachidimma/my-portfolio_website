@@ -16,3 +16,70 @@
 .contactDetails{
     margin-bottom: 40px;
 }
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Manrope", sans-serif;
+    padding: 26px 100px 40px 100px;
+}
+
+.contactDetailsContainer{
+    width: 48%;
+}
+
+.formContainer{
+    width: 48%;
+}
+
+label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+input{
+    margin-bottom: 24px;
+    height: 51px;
+}
+
+input, textarea{
+    width: 100%;
+    background-color: #1A1A1A;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    text-indent: 10px;
+}
+
+textarea{
+    padding: 5px;
+}
+
+input:focus, textarea:focus{
+    outline: 2px solid #C7C7C7;
+    /* outline-color: #C7C7C7; */
+}
+
+label, input, textarea{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1156px){
+    .hello{
+        font-size: 15px;
+        
+    }
+}
+
+@media screen and (max-width: 1036px){
+    .footerContainer{
+        padding: 26px 50px 40px 50px;
+    
+    }
+
+    .formContainer{
+        width: 52%;
+    }
+}

@@ -4,8 +4,8 @@ import SocialMediaIcons from "../button/socialMediaIcons"
 
 function Footer(){
     return(
-        <>
-            <section className="">
+        <div className={styles.footerContainer}>
+            <section className={styles.contactDetailsContainer}>
                 <SectionHeadings heading="Let's connect"/>
                 <div className={styles.contactMe}>
                     <div className={styles.contactDetails}>
@@ -16,8 +16,21 @@ function Footer(){
                     <SocialMediaIcons />
                 </div>
             </section>
+
+            <section className={styles.formContainer}>
+                <form action="">
+                    <label htmlFor="">Name</label>
+                    <input type="text" />
+                    <label htmlFor="">Email</label>
+                    <input type="text" />
+                    <label htmlFor="">Subject</label>
+                    <input type="text" />
+                    <label htmlFor="">Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </form>
+            </section>
             
-        </>
+        </div>
     )
 }
 

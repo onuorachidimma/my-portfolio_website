@@ -2,7 +2,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    /* padding: 26px 100px 40px 100px; */
+    padding: 26px 100px 40px 100px;
     border-bottom: 1px solid #484848;
     margin-bottom: 3rem;
 
@@ -34,7 +34,7 @@
 
 .headshotImageContainer{
     width: 49%;
-    height: 700px;
+    height: auto;
 }
 
 .headshotImageContainer img{
@@ -44,3 +44,40 @@
     border-radius: 15px;
 }
 
+
+@media screen and (max-width: 1349px){
+    .intro{
+        font-size: 80px;
+        line-height: 4.7rem;
+    }
+}
+@media screen and (max-width: 1276px){
+    .intro{
+        font-size: 70px;
+        line-height: 4.5rem;
+    }
+}
+@media screen and (max-width: 1156px){
+    .intro{
+        font-size: 60px;
+        line-height: 3.8rem;
+    }
+
+    .myProfession{
+        font-size: 15px;
+        line-height: 27px;
+        /* margin-bottom: 40px; */
+    }
+}
+
+@media screen and (max-width: 1036px){
+    .intro{
+        font-size: 50px;
+        line-height: 3.3rem;
+    }
+
+    .heroContainer{
+        padding: 26px 50px 40px 50px;
+    
+    }
+}

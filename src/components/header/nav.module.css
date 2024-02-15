@@ -18,8 +18,15 @@ ul li{
 
 /* RESPONSIVE DESIGN */
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 1156px){
+    .navBar{
+        padding: 20px;
+    }
+}
+
+
+/* @media screen and (max-width: 650px){
     .navBar{
         padding: 16px;
     }
-}
+} */
