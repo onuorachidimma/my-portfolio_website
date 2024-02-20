@@ -28,7 +28,7 @@
 
 .list li{
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-style: normal;
     font-size: 16px;
 }
@@ -51,9 +51,9 @@
 }
 
 @media screen and (max-width: 600px){
-    .myName{
+    /* .myName{
         font-size: 25px;
-    }
+    } */
 
     ul li{
         display: none;
@@ -70,7 +70,7 @@
     }  
 }
 
-@media screen and (max-width: 369px){
+@media screen and (max-width: 359px){
     .myName{
         display: none;
     }

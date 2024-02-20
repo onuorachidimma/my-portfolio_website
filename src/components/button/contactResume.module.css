@@ -19,3 +19,18 @@
     align-items: center;
     cursor: pointer;
 }
+
+/* ################## RESPONSIVE STYLING ####################### */
+
+@media screen and (max-width: 926px){
+    .resumeButton{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 456px){
+    .resumeButton{
+        font-size: 10px;
+        padding: 7px 6px 7px 14px;
+    }
+}

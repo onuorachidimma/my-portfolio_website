@@ -81,3 +81,34 @@
     
     }
 }
+
+@media screen and (max-width: 823px){
+    .heroContainer{
+        flex-wrap: wrap;
+    }
+
+    .introContainer, .headshotImageContainer{
+        width: 100%;
+    }
+
+    .introContainer{
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 446px){
+    .intro{
+        font-size: 40px;
+    }
+
+    .heroContainer{   
+        padding: 26px 20px 40px 20px;
+    }
+}
+
+@media screen and (max-width: 366px){
+    .intro{
+        font-size: 30px;
+        line-height: 2.8rem;
+    }
+}

@@ -83,3 +83,22 @@ label, input, textarea{
         width: 52%;
     }
 }
+
+@media screen and (max-width: 823px){
+    .footerContainer{
+        flex-wrap: wrap;
+    }
+
+    .contactDetailsContainer, .formContainer{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 446px){
+    .footerContainer{
+        padding: 26px 20px 40px 20px;
+        
+    
+    }
+}
