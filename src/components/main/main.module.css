@@ -1,0 +1,9 @@
+.mainContainer{
+    display: block;
+}
+
+.projectIntro{
+    width: 50%;
+    /* background-color: blue; */
+    color: white;
+}
