@@ -7,7 +7,7 @@ import myImage from "../../assets/images/Chidima_Onuora_ profile picture.png"
 function Hero(props){
     return (
         <>
-            <div className={styles.heroContainer}>
+            <div className={styles.heroMainContainer}>
                 <section className={styles.introContainer}>
                     <div className={styles.introduction}>
                         <p className={styles.intro}>{props.intro1}</p>

@@ -1,6 +1,7 @@
 import styles from "./footer.module.css"
 import SectionHeadings from "../button/sectionHeadings"
 import SocialMediaIcons from "../button/socialMediaIcons"
+import SubmitButton from "../button/submitButton"
 
 function Footer(){
     return(
@@ -20,13 +21,14 @@ function Footer(){
             <section className={styles.formContainer}>
                 <form action="">
                     <label htmlFor="">Name</label>
-                    <input type="text" />
+                    <input type="text" required/>
                     <label htmlFor="">Email</label>
-                    <input type="text" />
+                    <input type="text" required/>
                     <label htmlFor="">Subject</label>
                     <input type="text" />
                     <label htmlFor="">Message</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" required></textarea>
+                    <SubmitButton />
                 </form>
             </section>
             

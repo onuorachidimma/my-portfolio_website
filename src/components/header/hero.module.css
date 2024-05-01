@@ -1,4 +1,4 @@
-.heroContainer{
+.heroMainContainer{
     color: white;
     display: flex;
     justify-content: space-between;
@@ -76,14 +76,14 @@
         line-height: 3.3rem;
     }
 
-    .heroContainer{
+    .heroMainContainer{
         padding: 26px 50px 40px 50px;
     
     }
 }
 
 @media screen and (max-width: 823px){
-    .heroContainer{
+    .heroMainContainer{
         flex-wrap: wrap;
     }
 
@@ -101,7 +101,7 @@
         font-size: 40px;
     }
 
-    .heroContainer{   
+    .heroMainContainer{   
         padding: 26px 20px 40px 20px;
     }
 }
