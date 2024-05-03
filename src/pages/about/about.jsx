@@ -51,8 +51,8 @@ const About = () => {
               <div className={aboutStyles.capabilitiesSection}>
                 <MyCapabilities capabilities="HTML"/>
                 <MyCapabilities capabilities="CSS"/>
-                <MyCapabilities capabilities="ReactJs"/>
                 <MyCapabilities capabilities="Javascript"/>
+                <MyCapabilities capabilities="ReactJs"/>
                 <MyCapabilities capabilities="Bootstrap"/>
                 <MyCapabilities capabilities="GIT"/>
                 <MyCapabilities capabilities="GITHUB"/>
