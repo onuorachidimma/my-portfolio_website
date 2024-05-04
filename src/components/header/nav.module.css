@@ -1,0 +1,110 @@
+.navBar{
+    width: 100%;
+    margin: auto;
+    padding: 24px 60px;
+    color: #C7C7C7;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1156px){
+    .navBar{
+        padding: 20px;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 650px){
+    .navBar{
+        padding: 16px;
+    }
+} */
+
+.myName{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    font-style: normal;
+    font-size: 32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.list{
+    width: 207px;
+    display: flex;
+    align-items: center;  
+}
+
+.list li{
+    font-family: "Inter", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    font-size: 16px;
+}
+
+.menuIconContainer{
+    display: none;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+
+/* MAIN SECTION */
+/* .mainContainer{
+    padding: 26px 100px 40px 100px;
+} */
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 700px){
+    .myName{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /* .myName{
+        font-size: 25px;
+    } */
+
+    ul li{
+        display: none;
+    }
+    
+    .menuIconContainer{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 469px){
+    .myName{
+        font-size: 23px;
+    }  
+}
+
+@media screen and (max-width: 359px){
+    .myName{
+        display: none;
+    }
+}

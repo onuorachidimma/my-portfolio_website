@@ -1,0 +1,21 @@
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.linkedGithubButtons{
+    display: flex;
+    gap: 16px;
+    
+    height: 20px;
+}
+
+/* ############# RESPONSIVE STYLING ############### */
+
+@media screen and (max-width: 366px){
+    .linkedGithubButtons{
+        display: none;
+    }
+}

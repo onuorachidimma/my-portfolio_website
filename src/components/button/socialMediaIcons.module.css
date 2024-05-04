@@ -1,0 +1,10 @@
+.iconsContainer{
+    display: flex;
+    gap: 12px;
+}
+
+@media screen and (max-width: 823px){
+    .iconsContainer{
+        margin-bottom: 3rem;
+    }
+}

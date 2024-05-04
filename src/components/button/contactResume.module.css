@@ -1,0 +1,41 @@
+.resumeButton{
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: #D3E97A;
+    padding: 7px 6px 7px 24px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.submitButton{
+    padding: 7px 24px;
+    margin-top: 40px;
+}
+
+.downloadIcon{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* ################## RESPONSIVE STYLING ####################### */
+
+@media screen and (max-width: 926px){
+    .resumeButton{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 456px){
+    .resumeButton{
+        font-size: 10px;
+        padding: 7px 6px 7px 14px;
+    }
+}

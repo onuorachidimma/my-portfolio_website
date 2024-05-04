@@ -1,0 +1,61 @@
+.projectContainer{
+    font-family: "Manrope", sans-serif;
+}
+
+.projectName{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.projectDescription{
+    margin-bottom: 32px;
+    color: #C7C7C7;
+}
+
+.projectInfo{
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #484848;
+}
+
+.projectYearContainer{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #484848;
+}
+
+.yearRole{
+    color: #C7C7C7;
+}
+
+.liveDemoContainer{
+    display: flex;
+    gap: 24px;
+    padding-top: 16px;
+}
+
+.liveDemoGithubContainer a{
+    display: flex;
+    gap: 4px;
+    color: #D3E97A;
+    border-bottom: 1px solid #D3E97A;
+}
+
+
+@media screen and (max-width: 1349px){
+    .projectName{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1264px){
+    .projectName{
+        font-size: 20px;
+    }
+
+    .projectDescription, .projectYearContainer{
+        font-size: 12px;
+    }
+}
+
