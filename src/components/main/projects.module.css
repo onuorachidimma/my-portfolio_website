@@ -59,3 +59,9 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .liveDemoContainer{
+        flex-wrap: wrap;
+    }
+}
+

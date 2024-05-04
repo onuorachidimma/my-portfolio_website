@@ -67,7 +67,14 @@
     /* margin-bottom: 32px; */
 }
 
+.roleDuration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .experienceContainer{
+    /* background-color: red; */
     border-top: 1px solid #484848;
     border-bottom: 1px solid #484848;
     /* padding: 80px 0 ; */
@@ -76,6 +83,18 @@
 
 .myJob > div + div{
     margin-top: 80px;
+}
+
+.roleDuration{
+    margin-bottom: 16px;
+}
+
+.roleDuration:first-child{
+    font-size: 24px;
+}
+.period, .myJobDescription{
+    font-size: 18px;
+    color: #C7C7C7;
 }
 
 @media screen and (max-width: 1156px){
@@ -113,11 +132,23 @@
         font-size: 24px;
     }
     
-    .aboutMe, .allAboutMe, .headingConatiner, .capabilitiesSectionContainer{
+    .aboutMe, .allAboutMe, .headingConatiner, .capabilitiesSectionContainer, .myBackground{
         width: 100%;
     }
 
     .myCapabilitiesContainer{
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 531px){
+    .aboutHero, .myAboutPicture, .myCapabilitiesContainer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .roleDuration{
+        flex-wrap: wrap;
+    }
+    .roleDuration > p{
+        width: 100%;
     }
 }

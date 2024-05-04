@@ -1,16 +1,17 @@
 import styles from "./experience.module.css"
-const Experience = (props) => {
+const Experience = ({ children }) => {
     return(
         <>
             <div>
-                <div className={styles.roleDuration}>
+                {/* <div className={styles.roleDuration}>
                     <p>{props.role}</p>
                     <p>{props.duration}</p>
                 </div>
 
                 <div>
                     <p>{props.jobDescription}</p>
-                </div>
+                </div> */}
+                {children}
             </div>
         </>
     )
