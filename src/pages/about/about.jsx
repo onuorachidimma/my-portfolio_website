@@ -67,12 +67,31 @@ const About = () => {
             </div>
 
             <div className={`${aboutStyles.capabilitiesSectionContainer} ${aboutStyles.myJob}`}>
-              <div>
-                <Experience role="Freelance Developer" duration="Nov 2023 — Present" jobDescription="Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
-              </div>
 
               <div>
-                <Experience role="Freelance Developer" duration="Nov 2023 — Present" jobDescription="Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
+                <Experience>
+                  <div className={aboutStyles.roleDuration}>
+                    <p>Freelance Developer</p>
+                    <p className={aboutStyles.period}>Nov 2023 — Present</p>
+                  </div>
+
+                  <div>
+                    <p className={aboutStyles.myJobDescription}>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </Experience>
+              </div>
+              
+              <div>
+                <Experience>
+                  <div className={aboutStyles.roleDuration}>
+                    <p>Freelance Developer</p>
+                    <p className={aboutStyles.period}>Nov 2023 — Present</p>
+                  </div>
+
+                  <div className={aboutStyles.myJobDescription}>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </Experience>
               </div>
             </div>
             

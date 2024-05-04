@@ -95,7 +95,7 @@ label, input, textarea{
 
 }
 
-@media screen and (max-width: 446px){
+@media screen and (max-width: 531px){
     .footerContainer{
         padding: 26px 20px 40px 20px;
         
