@@ -42,3 +42,20 @@
     color: #D3E97A;
     border-bottom: 1px solid #D3E97A;
 }
+
+
+@media screen and (max-width: 1349px){
+    .projectName{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1264px){
+    .projectName{
+        font-size: 20px;
+    }
+
+    .projectDescription, .projectYearContainer{
+        font-size: 12px;
+    }
+}
+
