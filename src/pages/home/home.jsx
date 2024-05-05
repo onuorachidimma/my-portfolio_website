@@ -17,7 +17,7 @@ function Home(){
                     
                 <Nav />
                 
-                <Hero className={styles.heroContainer} intro1="Hi, I am" introName="Chidimma Onuora" myProfession="A passionate front-end developer. I am enthusiastic about creating software solutions, as well as developing accessible, user-friendly, and responsive websites." />
+                <Hero className={styles.heroContainer} intro1="Hi, I am" introName="Chidimma Onuora" myProfession="A passionate front-end developer driven by passion and dedication. With a keen eye for detail and a love for creating seamless, user experiences. I specialize in crafting elegant, responsive and functional web applications. My journey in the world of technology has been shaped by my enthusiasm for learning and my commitment to delivering top-notch solutions. I'm excited to share my work and experiences with you. Let's create something amazing together!" />
             
             </header>
 

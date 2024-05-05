@@ -28,7 +28,7 @@ function Main(props){
                     </a>
 
                     <div className={styles.projectDescription}>
-                        <Projects className={styles.project} projectName="TechDetect: A security website for the detection, monitoring and resolution of malicious activities." projectDescription="Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures." client="Academy" clientName="Tech4Dev" projectInfo="Project Info" projectYear="Year" projectWhichYear="2024" projectRole="Project Role" projectRoleName="Front-End Developer" liveDemeo="Live Demo" liveLink="https://tech-detect-capstone.vercel.app/" gitHub="See on GitHub" githubLink="https://github.com/onuorachidimma/Tech-Detect.capstone"/>
+                        <Projects className={styles.project} projectName="TechDetect: A web app designed to safeguard users by scanning, detecting and resolving malicious activities and threats." projectDescription="As the sole frontend developer, I collaborated closely with a team of project managers and product designers, we transformed ideas into a robust solution. Leveraging React as the frontend framework, TechDetect stands as a testament to my ability to translate complex security concepts into intuitive user experiences, ensuring every interaction is seamless." client="Academy" clientName="Tech4Dev" projectInfo="Project Info" projectYear="Year" projectWhichYear="2024" projectRole="Project Role" projectRoleName="Front-End Developer" liveDemeo="Live Demo" liveLink="https://tech-detect-capstone.vercel.app/" gitHub="See on GitHub" githubLink="https://github.com/onuorachidimma/Tech-Detect.capstone"/>
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ function Main(props){
                     </a>
 
                     <div className={styles.projectDescription}>
-                        <Projects className={styles.project} projectName="Quiz App: A security website for the detection, monitoring and resolution of malicious activities." projectDescription="Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures." projectInfo="Project Info" projectYear="Year" projectWhichYear="2024" projectRole="Project Role" projectRoleName="Front-End Developer" liveDemeo="Live Demo" liveLink="https://quiz-app-beryl-nu.vercel.app/" gitHub="See on GitHub" githubLink="https://github.com/onuorachidimma/Quiz_App"/>
+                        <Projects className={styles.project} projectName="Quiz App: This interactive web app allows users to test their knowledge on frontend development through a series of quiz questions and answers." projectDescription="Built entirely with JavaScript, I designed and implemented the quiz logic, and result tracking functionality. The project showcases my proficiency in JavaScript and my ability to create dynamic and interactie web applications." projectInfo="Project Info" projectYear="Year" projectWhichYear="2024" projectRole="Project Role" projectRoleName="Front-End Developer" liveDemeo="Live Demo" liveLink="https://quiz-app-beryl-nu.vercel.app/" gitHub="See on GitHub" githubLink="https://github.com/onuorachidimma/Quiz_App"/>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ function Main(props){
                     </a>
 
                     <div className={styles.projectDescription}>
-                        <Projects className={styles.project} projectName="FlexBlog: A security website for the detection, monitoring and resolution of malicious activities." projectDescription="Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures." projectInfo="Project Info" projectYear="Year" projectWhichYear="2024" projectRole="Project Role" projectRoleName="Front-End Developer" liveDemeo="Live Demo" liveLink="https://flex-blog-bay.vercel.app/" gitHub="See on GitHub" githubLink="https://github.com/onuorachidimma/Flex-Blog"/>
+                        <Projects className={styles.project} projectName="FlexBlog: A challenge project where I honed my skills in Flexbox and CSS Grid. This webpage serves as a hands-on exercise to strengthen proficiency in layout design using modern CSS techniques" projectDescription="Utilizing JavaScript, I dynamically added content to the page. FlexBlog not only showcases my expertise in front-end development but also demonstrates my ability to create dynamic, interactive, engaging and responsive web experiences.." projectInfo="Project Info" projectYear="Year" projectWhichYear="2023" projectRole="Project Role" projectRoleName="Front-End Developer" liveDemeo="Live Demo" liveLink="https://flex-blog-bay.vercel.app/" gitHub="See on GitHub" githubLink="https://github.com/onuorachidimma/Flex-Blog"/>
                     </div>
                 </div>
                 
