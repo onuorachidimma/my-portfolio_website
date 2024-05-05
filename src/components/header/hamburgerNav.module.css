@@ -11,7 +11,7 @@
     /* padding: 10px; */
 }
 
-.hamgurgerSidear ul li {
+.hamgurgerSidear ul li, .scrollLink {
     display: block;
     margin-top: 30px;
     color: white;
@@ -21,7 +21,7 @@
     transition: color 0.3s, background-color 0.3s;
     
 }
-.hamgurgerSidear ul li:hover {
+.hamgurgerSidear ul li:hover, .scrollLink:hover {
     background-color: #D3E97A;
     color: black;
 }

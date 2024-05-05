@@ -39,11 +39,12 @@ a{
     align-items: center;  
 }
 
-.list li{
+.list li, .scrollLink{
     font-family: "Inter", sans-serif;
     /* font-optical-sizing: auto; */
     font-style: normal;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .menuIconContainer{
@@ -82,7 +83,7 @@ a{
     .menuIconContainer{
         display: block;
     }
-    .list ul li{
+    .list{
         display: none;
     }
 
