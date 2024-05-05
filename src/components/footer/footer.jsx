@@ -5,7 +5,7 @@ import SubmitButton from "../button/submitButton"
 
 function Footer(){
     return(
-        <div className={styles.footerContainer} id={styles.allFooter}>
+        <div className={styles.footerContainer}>
             <section className={styles.contactDetailsContainer}>
                 <SectionHeadings heading="Let's connect"/>
                 <div className={styles.contactMe}>

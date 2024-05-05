@@ -103,7 +103,7 @@ const About = () => {
           
         </div>
 
-        <div>
+        <div id="contact">
           <Footer />
         </div>
       </div>

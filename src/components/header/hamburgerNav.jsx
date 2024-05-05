@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import { Link as ScrollLink } from "react-scroll"
 import styles from "./hamburgerNav.module.css"
 
 const HamburgerNav = () => {
@@ -22,7 +23,17 @@ const HamburgerNav = () => {
                     <ul>
                         <Link onClick={toggleSidebar} to="/"><li>Projects</li></Link>
                         <Link onClick={toggleSidebar} to="/about"><li>About</li></Link>
-                        <Link onClick={toggleSidebar} to="/contact"><li>Contact</li></Link>
+                        <ScrollLink className={styles.scrollLink}
+                            onClick={toggleSidebar}
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            >
+                            Contact
+                        </ScrollLink>
                     </ul>
                 </div>
             )}
