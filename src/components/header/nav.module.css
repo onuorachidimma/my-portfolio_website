@@ -12,26 +12,9 @@ a{
     color: #C7C7C7;
 }
 
-ul li{
+.list ul li{
     list-style-type: none;
 }
-
-/* RESPONSIVE DESIGN */
-
-@media screen and (max-width: 1156px){
-    .navBar{
-        padding: 20px;
-    }
-}
-
-
-
-
-/* @media screen and (max-width: 650px){
-    .navBar{
-        padding: 16px;
-    }
-} */
 
 .myName{
     font-family: "Bebas Neue", sans-serif;
@@ -68,6 +51,8 @@ ul li{
     cursor: pointer;
 }
 
+
+
 /* HERO SECTION */
 
 /* MAIN SECTION */
@@ -76,6 +61,12 @@ ul li{
 } */
 
 /* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1156px){
+    .navBar{
+        padding: 20px;
+    }
+}
 
 @media screen and (max-width: 700px){
     .myName{
@@ -88,13 +79,36 @@ ul li{
         font-size: 25px;
     } */
 
-    ul li{
-        display: none;
-    }
-    
     .menuIconContainer{
         display: block;
     }
+    .list ul li{
+        display: none;
+    }
+
+    /* .hamgurgerSidear {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%; 
+        max-width: 300px; 
+        background-color:rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        padding: 20px; 
+    }
+    
+    .hamgurgerSidear ul li {
+        position: absolute;
+        padding-top: 100px;
+        color: white;
+        text-decoration: none; 
+        margin-bottom: 10px; 
+    } */
+    
+    
 }
 
 @media screen and (max-width: 469px){
