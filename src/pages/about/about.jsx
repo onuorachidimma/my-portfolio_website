@@ -24,8 +24,10 @@ const About = () => {
             </section>
 
             <section className={aboutStyles.allAboutMe}>
-              <p className={aboutStyles.myBackground}>I am a front-end developer based in Nigeria. Has background in Biochemistry. </p>
-              <p className={aboutStyles.myDeveloperCareer}>I am a front-end developer based in Nigeria looking for exciting opportunities. Has a Biochemistry background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I am surfing the internet. Learning more to improve skill</p>
+              <p className={aboutStyles.myBackground}>I am a Front-end Developer based in Nigeria. I thrive at the intersection of creativity and technology. My journey began in Biochemistry, where I cultivated a deep appreciation for detail and problem-solving. </p>
+              <p className={aboutStyles.myDeveloperCareer}>Driven by a passion for accessible design, I immerse myself in crafting digital experiences that are not just functional but also inclusive and responsive. Currently, I'm exploring the dynamic realms of React.js, constantly pushing the boundaries of my skills.
+
+              Beyond coding, I indulge in the vast expanse of the internet, constantly seeking inspiration and knowledge to fuel my growth and innovation.</p>
 
               <div className={heroStyles.downloadLinkedInGithubIcons}>
                 <ContactResume />
@@ -46,7 +48,7 @@ const About = () => {
 
             <div className={aboutStyles.capabilitiesSectionContainer}>
               <p className={`${aboutStyles.myDeveloperCareer} ${aboutStyles.capability}`}>
-              I am always looking to add more skills.Morbi egestas neque eu blandit fermentum. Nulla ac lobortis ligula. Pellentesque ac ex at purus faucibus tristique ut et dolor. 
+              I am committed to continuous learning and upskilling. I am constantly expanding my skills and staying updated with the latest trends in frontend development. 
               </p>
               <div className={aboutStyles.capabilitiesSection}>
                 <MyCapabilities capabilities="HTML"/>
@@ -63,36 +65,37 @@ const About = () => {
           <div className={`${aboutStyles.myCapabilitiesContainer} ${aboutStyles.experienceContainer}`}>
            
             <div className={aboutStyles.headingConatiner}>
-              <SectionHeadings heading="My Experience"/>
+              <SectionHeadings heading="Volunteer Experience"/>
             </div>
 
             <div className={`${aboutStyles.capabilitiesSectionContainer} ${aboutStyles.myJob}`}>
 
+            <div>
+                <Experience>
+                  <div className={aboutStyles.roleDuration}>
+                    <p>Frontend Developer</p>
+                    <p className={aboutStyles.period}>Mar 2024 — Apr 2024</p>
+                  </div>
+
+                  <div className={aboutStyles.myJobDescription}>
+                    <p>I contributed to Wikimedia during the May 2024 Outreachy Internship contribution phase, collaborating with the community on open-source projects and gaining valuable experience in version control and collaborative coding practices.</p>
+                  </div>
+                </Experience>
+              </div>
               <div>
                 <Experience>
                   <div className={aboutStyles.roleDuration}>
-                    <p>Freelance Developer</p>
-                    <p className={aboutStyles.period}>Nov 2023 — Present</p>
+                    <p>Mentor</p>
+                    <p className={aboutStyles.period}>March 2023 — Dec 2023</p>
                   </div>
 
                   <div>
-                    <p className={aboutStyles.myJobDescription}>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p className={aboutStyles.myJobDescription}>I founded and led an initiative to support women entering the tech space. As part of this initiative, I organized and conducted workshops on bash scripts and basic programming concepts. My role involved mentoring and guiding participants to build a strong foundation in tech before joining the ALX All Female Software Engineering program. I collaborated with colleagues to provide insights and resources.</p>
                   </div>
                 </Experience>
               </div>
               
-              <div>
-                <Experience>
-                  <div className={aboutStyles.roleDuration}>
-                    <p>Freelance Developer</p>
-                    <p className={aboutStyles.period}>Nov 2023 — Present</p>
-                  </div>
-
-                  <div className={aboutStyles.myJobDescription}>
-                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                  </div>
-                </Experience>
-              </div>
+              
             </div>
             
           </div>
