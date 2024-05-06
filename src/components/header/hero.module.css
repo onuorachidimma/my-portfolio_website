@@ -45,6 +45,30 @@
 }
 
 
+.toggleKeyword {
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+    width: 120px;
+    text-align: center;
+  }
+  
+  .cyan {
+    color: #D3E97A; /* Red color */
+  }
+  
+  .blue {
+    color: #47f1e3; /* Blue color */
+  }
+  
+  .green {
+    color: #00ff00; /* Green color */
+  }
+  
+  .orange {
+    color: #ffa500; /* Orange color */
+  }
+
+
 @media screen and (max-width: 1349px){
     .intro{
         font-size: 80px;
@@ -93,6 +117,10 @@
 
     .introContainer{
         margin-bottom: 3rem;
+    }
+
+    .toggleKeyword{
+        width: 100px;
     }
 }
 
