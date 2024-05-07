@@ -1,12 +1,12 @@
 import styles from "../button/contactResume.module.css"
-import resumePDF from "../../assets/documents/Chidimma_Onuora_Resume.pdf"
+import resumePDF from "../../assets/documents/CHIDIMMA_ONUORA_CV.pdf"
 
 function ContactResume(){
 
     const handleDownload = () => {
         const link = document.createElement("a");
         link.href = resumePDF;
-        link.download = "Chidimma_Onuora_Resume.pdf"; // Set the desired filename for download
+        link.download = "CHIDIMMA_ONUORA_CV.pdf"; // Set the desired filename for download
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
