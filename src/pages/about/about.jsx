@@ -11,6 +11,10 @@ import SectionHeadings from "../../components/button/sectionHeadings"
 import MyCapabilities from "../../components/button/myCapabilites"
 import Footer from "../../components/footer/footer"
 import Experience from "../../components/experience"
+import CourseraLogo from "../../assets/images/cousera_logo.png"
+import AlxLogo from "../../assets/images/alx_logo.png"
+import CodevixenLogo from "../../assets/images/codevixen_logo.png"
+import ScrollButton from "../../components/button/scrollBtn"
 
 const About = () => {
   return(
@@ -99,6 +103,30 @@ const About = () => {
             </div>
             
           </div>
+          <div className={`${aboutStyles.myCapabilitiesContainer} ${aboutStyles.experienceContainer} ${aboutStyles.certificationContainer}`}>
+           
+            <div className={aboutStyles.headingConatiner}>
+              <SectionHeadings heading="Certifications"/>
+            </div>
+
+            <div className={`${aboutStyles.capabilitiesSectionContainer} ${aboutStyles.myJob}`}>
+
+            <div>
+                <Experience>
+                  <ol>
+                    <li><img className={aboutStyles.certificationLogo} src={CourseraLogo} alt="Cousera Logo" /><a href="https://www.coursera.org/account/accomplishments/certificate/N294F8P4TY3Q" target="_blank">Programming with JavaScript</a></li>
+                    <li><img className={aboutStyles.certificationLogo} src={CourseraLogo} alt="Cousera Logo" /><a href="https://www.coursera.org/account/accomplishments/certificate/RMB3WMPLXU23" target="_blank">Version Control</a></li>
+                    <li><img className={aboutStyles.certificationLogo} src={AlxLogo} alt="alx Logo" /><a href="https://intranet.alxswe.com/certificates/BZhRNCY9M7" target="_blank">Frontend Software Development</a></li>
+                    <li><img className={aboutStyles.certificationLogo} src={CodevixenLogo} alt="Codevixen Logo" /><a href="https://res.cloudinary.com/dbv1y1xey/image/upload/v1715822189/Onuora_Chidinma_Blessing_stsiad.pdf" target="_blank">HTML/CSS</a></li>
+                  </ol>
+                </Experience>
+              </div>
+              
+              
+              
+            </div>
+            
+          </div>
 
           {/* <div className={aboutStyles.capabilitiesSectionContainer}>
             <Experience role="Freelance Developer" duration="Nov 2023 — Present" jobDescription="Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
@@ -108,6 +136,7 @@ const About = () => {
 
         <div id="contact">
           <Footer />
+          <ScrollButton />
         </div>
       </div>
     </>

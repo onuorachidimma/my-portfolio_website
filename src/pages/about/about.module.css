@@ -97,6 +97,52 @@
     color: #C7C7C7;
 }
 
+.certificationContainer{
+    border-top: none;
+}
+
+ol{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ol > li{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.certificationLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    object-fit: contain;
+}
+
+ol > li > a{
+    font-size: 28px;
+    color: #D3E97A;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: #D3E97A;
+    display: flex;
+    align-items: center;
+}
+
+/* ################## RESPONSIVE STYYLING  #################### */
+@media screen and (max-width: 1315px){
+    ol > li > a{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1183px){
+    ol > li > a{
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 1156px){
     .aboutHero, .myAboutPicture, .myCapabilitiesContainer{
         padding-left: 80px;
@@ -150,5 +196,11 @@
     }
     .roleDuration > p{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 435px){
+    ol > li > a{
+        font-size: 14px;
     }
 }

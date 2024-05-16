@@ -3,6 +3,7 @@ import { Link as ScrollLink } from "react-scroll"
 import styles from "../header/nav.module.css"
 import HamburgerNav from "./hamburgerNav"
 
+
 const Nav = () => {
 
   
@@ -24,6 +25,7 @@ const Nav = () => {
                         Contact
                     </ScrollLink>
                 </ul>
+
             </div>
 
             <div className={styles.menuIconContainer} >
