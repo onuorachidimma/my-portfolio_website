@@ -4,6 +4,7 @@ import Hero from "../../components/header/hero"
 import Footer from "../../components/footer/footer"
 import Main from "../../components/main/main"
 import { Link } from "react-router-dom"
+import ScrollButton from "../../components/button/scrollBtn"
 // import SectionHeadings from "../../components/button/sectionHeadings"
 
 
@@ -20,10 +21,11 @@ function Home(){
                 <Hero className={styles.heroContainer} intro1="Hi, I am" introName="Chidimma Onuora" myProfession="" />
             
             </header>
-
+            
             <main className={styles.mainContainer}>
                 
                 <Main />
+                
               
             </main>
 
@@ -32,6 +34,7 @@ function Home(){
                 <Footer />
                 
             </footer>
+            <ScrollButton />
         </>
 
         

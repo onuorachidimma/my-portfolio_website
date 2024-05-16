@@ -1,0 +1,47 @@
+
+/* .scrollBtn svg{
+    background-color: rgb(34, 34, 34);
+    border-radius: 100px;
+    padding: 10px;
+} */
+
+/* .scrollBtn svg{
+    position: fixed;
+    top: 90vh;
+    right: 10px;
+} */
+
+/* scrollBtn.module.css */
+
+.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 999;
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .scrollLink svg {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  
+  
+

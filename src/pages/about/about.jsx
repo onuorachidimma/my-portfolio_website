@@ -14,6 +14,7 @@ import Experience from "../../components/experience"
 import CourseraLogo from "../../assets/images/cousera_logo.png"
 import AlxLogo from "../../assets/images/alx_logo.png"
 import CodevixenLogo from "../../assets/images/codevixen_logo.png"
+import ScrollButton from "../../components/button/scrollBtn"
 
 const About = () => {
   return(
@@ -135,6 +136,7 @@ const About = () => {
 
         <div id="contact">
           <Footer />
+          <ScrollButton />
         </div>
       </div>
     </>
